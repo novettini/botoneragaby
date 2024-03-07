@@ -1,0 +1,13 @@
+body {background-image: url("../images/botoneragaby/fondo.jpeg");
+    background-size: cover;
+}
+
+img{
+    max-width: 120px;
+    max-height: 120px;
+    padding: 10px;
+
+}
+.row{
+    flex-wrap: wrap;
+}
