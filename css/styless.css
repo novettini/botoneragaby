@@ -11,3 +11,18 @@ img{
 .row{
     flex-wrap: wrap;
 }
+
+#principal{
+    display:inline-flex;
+     flex-direction:row;
+       flex-wrap: wrap;
+}
+
+
+@media (max-width: 580px)
+{    #principal{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+}
+   }
